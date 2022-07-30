@@ -98,3 +98,38 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+
+/*Seccion AFICIONES*/
+h1.fw{
+  color:#ffffff;
+  font-size: 50px;
+}
+div.album{
+  padding-top: 2rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.39) 100%), url("https://wallpapershome.com/images/pages/pic_h/23424.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size:cover;
+}
+div.card{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #21212100;
+  border-color: #cecece;
+  border-width: 3px;
+  background-position: center;
+  background-attachment: scroll;
+  background-size:contain;
+}
+
+div.card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ height: 50%;
+}
